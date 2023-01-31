@@ -17,7 +17,7 @@
 
 <p>
   <% if @book.image.attached? %>
-    <%= image_tag @book.image %>
+    <%= image_tag @book.image, width: "200" %>
   <% end %>
 </p>
 
